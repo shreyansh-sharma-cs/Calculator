@@ -11,13 +11,15 @@ body{
     height: 100vh; */
    margin: 0%;
    padding: 0;
-    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+    /* background: linear-gradient(45deg,#0a0a0a,#3a4452); */
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    
 }
 .heading{
     text-align: center;
     margin-top: 0px;
     padding-top: 10px;
-    color: whitesmoke;
+    color: black;
     background: transparent;
     text-shadow: 0px 3px 15px rgb(113, 115, 119,);
     font-size: 20px;
@@ -43,7 +45,7 @@ body{
     border: 1px solid grey;
     padding: 20px 20px;
     border-radius: 20px;
-    background: transparent;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
     box-shadow: 0px 3px 15px rgb(113, 115, 119,0.5) ;
     width: 35vw;
 }
